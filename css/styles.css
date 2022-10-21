@@ -1,0 +1,194 @@
+
+
+.nav-item{
+    margin-right: 20px;
+    color: #FFF;
+    padding: 10px 10px;
+}
+
+.navbar-nav li{
+color: #000;
+}
+
+
+#title{
+    min-height: 600px;
+    background-color: blueviolet;
+    padding: 10px 10px 0px;
+    color: #FFF;
+}
+
+
+.text{
+    padding-top: 70px;
+    text-align: center;
+}
+.img{
+    margin-top: 50px;
+   /* height: 60%; */
+   height: 550px;
+   position: absolute;
+   z-index: 0;
+   transform: rotate(45deg);
+}
+
+#features{
+     background-color: #FFF;
+  position: relative;
+  z-index: 5000;
+  text-align: center;
+
+}
+#pricing{
+    text-align: center;
+    margin-bottom: 6px;
+  
+}
+.bt{
+    background-color: blueviolet;
+    
+    border: none;
+}
+.bt:hover{
+    background-color: rgb(170, 115, 222);
+}
+.rw-prc{
+   margin: 5% 1% 7% 13%;
+   
+    }
+
+
+.rw{
+  padding: 7% 20% 5% ;
+}
+.tx{
+    width: 220px;
+    
+}
+#testimonials{
+    background-color: blueviolet;
+    text-align: center;
+    padding:5% 30px;
+    color: #FFF;
+}
+
+.ts-img{
+    width: 100px;
+border-radius: 50%;
+}
+
+#press{
+   text-align: center;
+    border-top: blueviolet;
+    background-color: blueviolet;
+    padding-bottom: 5%;
+    margin-bottom: 40px;
+}
+
+.img-sz{
+    padding-right: 10%;
+    /* margin-left: 30px; */
+    width: 20%;
+}
+.ca-ti{
+
+ font-weight: bolder;
+}
+
+#cta{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 100px;
+    color: #FFF;
+}
+footer{
+    text-align: center;
+}
+.icon a{
+    /* padding: 10px; */
+    text-decoration: none;
+}
+
+.fa-brands{
+ /* margin-right: 20px; */
+ padding: 10px;
+}
+
+.fa-instagram{
+    color: red;
+}
+.fa-facebook{
+    color: blue;
+
+}
+
+.fa-twitter{
+    color: skyblue;
+}
+
+.hi{
+    color: blueviolet;
+    font-size: 40px;
+}
+@media screen and (max-width:1020px)  {
+    .img{
+        transform: rotate(0deg);
+        /* position: static; */
+        /* height: 70%; */
+        /* padding-bottom: 1100px; */
+        position: static;
+        text-align: center;
+        /* height: 50%; */
+       
+       
+        
+    }
+
+
+    #title{
+       /* text-align: center; */
+       /* text-align: center; */
+       text-align: center;
+       position: relative;
+       
+       
+    }
+    .phone{
+        text-align: center;
+    }
+
+  .navs{
+    position: absolute;
+    width: 50%;
+    background-color: #FFF;
+    z-index: 1;
+  }
+    #features{
+         /* position: static;
+         z-index: 1; */
+         position: relative;
+        z-index: 1;
+        background-color: #FFF;
+    }
+
+    
+
+    
+    
+
+.card{
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.slide{
+    background-color: blueviolet;
+    position: relative;
+    z-index: 1;
+}
+
+.ct{
+    margin-bottom: 15px;
+}
+
+}
